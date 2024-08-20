@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/headlinesFragment"
+        android:icon="@drawable/home_icon"
+        android:title="@string/home"
+        android:checked="true"/>
+    <item
+        android:id="@+id/favouritesFragment"
+        android:icon="@drawable/interests"
+        android:title="@string/interests" />
+    <item
+        android:id="@+id/searchFragment"
+        android:icon="@drawable/baseline_search"
+        android:title="@string/search" />
+
+</menu>
